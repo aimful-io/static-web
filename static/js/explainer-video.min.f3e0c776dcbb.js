@@ -1,0 +1,2 @@
+const videoContainer=document.querySelector("[data-explainer-video]"),controls=videoContainer.querySelector(".video-controls"),video=videoContainer.querySelector("video");let isPlaying=!1;videoContainer.addEventListener("click",e=>{e.preventDefault(),isPlaying?(video.pause(),controls.style.display="flex",isPlaying=!1):(controls.style.display="none",video.play(),isPlaying=!0)});
+//# sourceMappingURL=explainer-video.min.js.map
